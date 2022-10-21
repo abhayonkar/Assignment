@@ -14,5 +14,3 @@ class JokesSpider(scrapy.Spider):
                 'joke_text' : joke.xpath(".//div[@class='joke-text']/p").extract_first()
             }
 
-# //*[@id="__next"]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[3]
-# //*[@id="__next"]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[3]/p
